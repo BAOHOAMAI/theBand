@@ -1,0 +1,137 @@
+/* PC */
+@media  (min-width: 64em) {
+    .mobile-icon {
+        display: none;
+    }
+}
+
+@media  (max-width: 63.9375em) {
+    .form-control {
+        padding: 15px;
+    }
+    .contact-loc li {
+        line-height: 2;
+    }
+
+    .place-btn {
+        padding: 15px 18px;
+        width: 95%;
+        text-align: center;
+    }
+    .social-list a  {
+        margin: 0 8px;
+        font-size: 28px;
+    }
+    .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media  (min-width: 46.25em) and (max-width: 63.9375em) {
+    .mobile-icon {
+        display: none;
+    }
+
+}
+
+/* Mobile */
+@media  (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .sub-nav {
+        background-color: #333;
+        position: initial;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav .sub-nav a {
+        color: white;
+        border: none;
+        padding: 5px 40px;
+    }
+
+    .mobile-icon {
+        float: right;
+        color: white;
+        padding: 0 24px;
+        line-height: 46px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .mobile-icon:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    #header .header-icon {
+        display: none;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .img-member {
+        width: 60%;
+    }
+
+    #content .member-name {
+        margin-top: 30px;
+    }
+
+    .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .contact-btn {
+        width: 100% ;
+        margin-right: 0%;
+        padding: 16px;
+    }
+    
+    .contact-info {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .email-margin {
+        margin-top: 8px;
+    }
+
+    .contact-sec {
+        padding: 0%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .first-form {
+        padding: 0%;
+        float: none;
+        width: 100%;
+    }
+
+
